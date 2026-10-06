@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #222222;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.group{
+    display: flex;
+    min-height: 100vh;
+    padding: 20px;
+    gap: 20px;
+}
+
+.rightScreen{
+    flex: 1;
+    text-align: center;
+    min-width: 250px;
+    background-color: #000000;
+}
+
+.rightScreen h2 {
+    text-align: center;
+}
+
+#records {
+    font-size: 1.5rem;
+    color: #00ff88;
+}
+
+.leftScreen{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+}
+
+.leftScreen h1 {
+    font-size: 2rem;
+}
+
+#number {
+    font-size: 6rem;
+    font-weight: bold;
+    color: #00ff88;
+    margin: 20px;
+}
+
+.buttonFrame {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+button {
+    border: none;
+    padding: 12px 25px;
+    margin: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#plus1 {
+    background-color: #00aa55;
+}
+
+#minus1 {
+    background-color: #cc3333;
+}
+
+#solatJemaah {
+    background-color: #4169E1;
+}
+
+#recordButton {
+    background-color: #3366cc;
+}
+
+#resetButton {
+    background-color: #555555;
+}
